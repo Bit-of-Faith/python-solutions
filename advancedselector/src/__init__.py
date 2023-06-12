@@ -1,5 +1,5 @@
-from .selector.picker import SingleMenu, FunctionItem, MenuWrapper, MultiMenu
-from .colors.colors import colorize
+from .picker import SingleMenu, FunctionItem, MenuWrapper, MultiMenu
+from .colors import colorize
 
 __all__ = ['SingleMenu', 'FunctionItem', 'MenuWrapper', 'MultiMenu', 'colorize']
 
