@@ -1,4 +1,7 @@
 from setuptools import setup
 
 if __name__ == '__main__':
-    setup()
+    setup(install_requires=[
+        'py-getch',
+        'windows-curses',
+    ])
