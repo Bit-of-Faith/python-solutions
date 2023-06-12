@@ -8,6 +8,10 @@ BLACK = "(!black!)"
 RED = "(!red!)"
 GREEN = "(!green!)"
 YELLOW = "(!yellow!)"
+BLUE = "(!blue!)"
+PURPLE = "(!purple!)"
+CYAN = "(!cyan!)"
+WHITE = "(!white!)"
 GRAY = "(!gray!)"
 PINK = "(!pink!)"
 ORANGE = "(!orange!)"
@@ -19,10 +23,10 @@ ansi_dict = {
 	RED : "\033[31m",
 	GREEN : "\033[32m",
 	YELLOW : "\033[33m", 
-	"(!blue!)": "\033[34m",
-	"(!purple!)": "\033[35m",
-	"(!cyan!)": "\033[36m",
-	"(!white!)": "\033[37m",
+	BLUE: "\033[34m",
+	PURPLE: "\033[35m",
+	CYAN: "\033[36m",
+	WHITE: "\033[37m",
 	PINK: "\033[38;5;213m",
 	GRAY: "\033[90m",
 	ORANGE: "\033[38;5;208m",
